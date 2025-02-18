@@ -1,0 +1,5 @@
+﻿// Add any interactive functionality here, e.g., form submission handling
+document.getElementById('mentorship-form').addEventListener('submit', function(event) {
+    event.preventDefault();
+    alert('Thank you for signing up! We will contact you soon.');
+});

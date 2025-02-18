@@ -1,0 +1,86 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amalia Golden Table - The Work of God</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Amalia Golden Table - The Work of God</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#mentorship">Mentorship</a></li>
+                <li><a href="#shop">Online Shop</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to Amalia Golden Table</h1>
+        <p>A platform to share testimonies, grow in faith, and fulfill God’s will.</p>
+        <div class="cta-buttons">
+            <a href="#mentorship" class="btn">Join Our Mentorship Program</a>
+            <a href="#shop" class="btn">Support Our Ministry</a>
+        </div>
+    </section>
+
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>Who We Are</h2>
+        <p>Welcome to Amalia Golden Table Talk Show. We are testifying about the Work of God in our lives...</p>
+        <img src="golden-table.jpg" alt="Golden Table">
+    </section>
+
+
+    <!-- Mentorship Section -->
+    <section id="mentorship" class="mentorship">
+        <h2>Prophetic Mentorship - The Realm of the Spirit</h2>
+        <p>Unlock your gifts and step into your calling...</p>
+        <form id="mentorship-form">
+            <input type="text" placeholder="Name" required>
+            <input type="email" placeholder="Email" required>
+            <input type="tel" placeholder="Phone Number" required>
+            <button type="submit">Sign Up Now</button>
+        </form>
+    </section>
+
+
+    <!-- Online Shop Section -->
+    <section id="shop" class="shop">
+        <h2>Support Our Ministry</h2>
+        <div class="shop-items">
+            <div class="item">
+                <h3>Sow a Seed</h3>
+                <a href="https://www.paypal.me/Amaliagoldentable" class="btn">Donate via PayPal</a>
+            </div>
+            <div class="item">
+                <h3>Become a Sponsor</h3>
+                <a href="#contact" class="btn">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="social-links">
+            <a href="https://www.tiktok.com/@amailagoldentable">TikTok</a>
+            <a href="https://youtube.com/@AmaliatheworkofGod">YouTube</a>
+        </div>
+        <p>Contact: amaliagoldentable@gmail.com</p>
+        <p>© 2023 Amalia Golden Table - The Work of God. All Rights Reserved.</p>
+    </footer>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
